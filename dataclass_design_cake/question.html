@@ -1,0 +1,185 @@
+<pl-question-panel>
+  <p> Suppose you are writing a Python program whose purpose is to define a programtic way for baking a cake with its ingredients. Use the
+template below to design the class definitions you would use to structure your data. 
+
+</p>
+
+<p>
+Each of the phrases below represents some component of your program’s design. Some
+are class names, some are member variable names, and some are member function names. Add the
+phrases to the class definition template below in the appropriate place. You may use a
+phrase more than once. Where relevant, select the appropriate type for your design.
+Notes: a) If a phrase is not familiar to you, make a guess.
+ b) We are only interested in the declarations for the member functions, not their implementations
+ nor parameterizations.
+</p>
+
+<table style="width: 50%">
+<tr>
+    <td><code>ingredient</code></td>
+    <td><code>name</code></td>
+    <td><code>quantity</code></td>
+    <td><code>measure</code></td> 
+</tr>
+<tr>
+    <td><code>ingredients</code></td>
+    <td><code>mix</code></td> 
+    <td><code>bake</code></td>
+    <td><code>decorate</code></td>
+</tr>
+</table>
+</pl-question-panel>
+
+<pl-overlay width="400" height="650">
+    <pl-background>
+<pl-code language="python">
+@dataclass
+
+class  cake : 
+  
+    
+                : List[     XXXXX.    ]
+    
+                
+    def   BBB.         (self):
+    
+    
+    def   CCC.         (self):
+    
+    
+    def   DDD.         (self):
+    
+    
+    
+@dataclass
+
+class    AAA        : 
+
+
+                : str
+  
+    
+                : TYPE
+
+                
+    def   CCC.          (self):
+    
+    
+
+</pl-code>
+</pl-background>
+
+<pl-location left="80" top="110">
+<pl-dropdown answers-name="ans1">
+    <pl-answer correct="true">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="265" top="110">
+<pl-dropdown answers-name="ans2">
+    <pl-answer correct="false">str</pl-answer>
+    <pl-answer correct="false">List</pl-answer>
+    <pl-answer correct="true">ingredient</pl-answer>
+    <pl-answer correct="false">float</pl-answer>
+    <pl-answer correct="false">bool</pl-answer>
+    <pl-answer correct="false">int</pl-answer>
+    <pl-answer correct="false">cake</pl-answer>
+    <pl-answer correct="false">Tuple</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="135" top="160">
+<pl-dropdown answers-name="ans3">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="true">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="135" top="210">
+<pl-dropdown answers-name="ans4">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="true">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="135" top="260">
+<pl-dropdown answers-name="ans5">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="true">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+
+<pl-location left="115" top="365">
+<pl-dropdown answers-name="ans6">
+    <pl-answer correct="true">ingredient</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="80" top="415">
+<pl-dropdown answers-name="ans7">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="true">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="80" top="465">
+<pl-dropdown answers-name="ans8">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="true">quantity</pl-answer>
+    <pl-answer correct="false">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="200" top="465">
+<pl-dropdown answers-name="ans9">
+    <pl-answer correct="false">str</pl-answer>
+    <pl-answer correct="false">List</pl-answer>
+    <pl-answer correct="false">song</pl-answer>
+    <pl-answer correct="true">float</pl-answer>
+    <pl-answer correct="false">bool</pl-answer>
+    <pl-answer correct="false">Tuple</pl-answer>
+    <pl-answer correct="false">cake</pl-answer>
+</pl-dropdown>
+</pl-location>
+<pl-location left="130" top="515">
+<pl-dropdown answers-name="ans10">
+    <pl-answer correct="false">ingredients</pl-answer>
+    <pl-answer correct="false">name</pl-answer>
+    <pl-answer correct="false">quantity</pl-answer>
+    <pl-answer correct="true">measure</pl-answer>
+    <pl-answer correct="false">mix</pl-answer>
+    <pl-answer correct="false">bake</pl-answer>
+    <pl-answer correct="false">decorate</pl-answer>
+</pl-dropdown>
+</pl-location>
+</pl-overlay>
+
