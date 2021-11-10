@@ -1,0 +1,21 @@
+<pl-question-panel>
+  <p> Consider the game of chess which is a two-player game, on an 8x8 board where players take turns moving unique pieces in a strategic way to take down their opponent's king.</p>
+  <p> In this question, we will be focusing on the bishop. The bishop is a chess piece that can only move diagonally from its starting space. This is illustrated on the diagram below. </p>
+  
+  <pl-figure file-name='bishop.png' directory="clientFilesQuestion"></pl-figure>
+  
+  <p> A chess board is represented as a 2-dimensional list (i.e. a list of lists) while a position on the board is represented with <b>x, y</b> coordinates (the origin (0,0) is the top left corner). Your challenge is to design a function that will take in a <b>starting position</b> and <b>target position</b> and determins whether or not the bishop piece can move to the target position from its starting position. You may assume that the path to the target position is unoccupied and that all positions given will always be within the bounds of the game board.</p>
+
+    <p>Your code snippet should define the following variables:</p>
+    <pl-external-grader-variables params-name="names_from_user"></pl-external-grader-variables>
+
+<pl-file-editor
+    file-name="user_code.py"
+    ace-mode="ace/mode/python"
+    source-file-name="tests/initial_code.py"></pl-file-editor>
+</pl-question-panel>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

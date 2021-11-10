@@ -1,0 +1,18 @@
+{
+    "uuid": "2eb0a3be-7af5-43e1-ac9a-2445231d28db",
+    "title": "Chess (moveBishop)",
+    "topic": "Autograder",
+    "tags": [
+        "2d-array",
+        "game"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 60
+    }
+}
