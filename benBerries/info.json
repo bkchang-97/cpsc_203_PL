@@ -1,0 +1,18 @@
+{
+    "uuid": "342a3753-86ce-4246-acc6-2fdbff217355",
+    "title": "Ben's Berry Counts",
+    "topic": "dictionaries",
+    "tags": [
+        "dictionaries",
+        "short-coding"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 30
+    }
+}
