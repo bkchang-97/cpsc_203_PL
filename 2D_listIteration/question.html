@@ -1,0 +1,34 @@
+<pl-question-panel>
+    <p> <b>NOTE:</b> this question is meant to be done without the use of PyCharm. You will run out of time if you attempt to copy and run the code.</p>
+    <p> Consider the following function: </p>
+
+<pl-code language="python" prevent-select = true>
+from typing import List
+
+def printElements(loloi: List[List[int]]):
+    for i in range(len(loloi)):
+        for j in range(len(loloi[i])):
+            print(loloi[j][i])
+</pl-code>
+
+Imagine you had this 2-dimensional list $nums$: 
+
+$$
+\left[
+\begin{array}
+\text{ {{params.rows.0}}, } \\
+\text{ {{params.rows.1}}, } \\
+\text{ {{params.rows.2}}, } \\
+\text{ {{params.rows.3}} } \\
+\end{array}
+\right]
+$$
+</pl-question-panel>
+
+<p> If $nums$ was passed through the function <code>printElements</code>, what would the {{params.a}}nd number printed be?
+    <pl-integer-input answers-name="a" label="$ans1 =$"></pl-integer-input>
+</p>
+<p> What about the {{params.b}}th number?
+    <pl-integer-input answers-name="b" label="$ans2 =$"></pl-integer-input>
+</p>
+
