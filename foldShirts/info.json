@@ -1,0 +1,18 @@
+{
+    "uuid": "765c721b-d0c9-43d6-b961-98352d388fa1",
+    "title": "Member Functions (Shirt II)",
+    "topic": "dataclasses",
+    "tags": [
+        "short-coding",
+        "dataclasses"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 60
+    }
+}
