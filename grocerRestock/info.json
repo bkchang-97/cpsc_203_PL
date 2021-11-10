@@ -1,0 +1,18 @@
+{
+    "uuid": "74c2238e-e2e6-4c50-9f66-a8166808893d",
+    "title": "Grocer and Restocking",
+    "topic": "dataclasses",
+    "tags": [
+        "short-coding",
+        "dataclasses"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 60
+    }
+}
